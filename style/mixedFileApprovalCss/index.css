@@ -1,0 +1,139 @@
+.signature-period-text-table p:first-child {
+    font-size: 14px;
+    font-weight: 500;
+    color: #1565C0;
+}
+
+.signature-period-text-table p:last-child {
+    font-size: 12px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.signature-text-table {
+    font-size: 14px;
+    color: #000000;
+    font-weight: 400;
+}
+
+.qi-box-search {
+    border: 1px solid #DBDBDB;
+    width: 210px;
+    height: 36px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.qi-input-search {
+    border: none;
+    list-style: none;
+    list-style-type: none;
+    width: 100%;
+}
+
+.qi-content-left p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #262626;
+    margin-right: 8px;
+}
+
+.qi-btn-default {
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.fixTableHead-2 {
+    overflow-y: auto;
+    height: calc(100vh - 235px);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.fixTableHead-2 thead th {
+    position: sticky;
+    top: 0;
+}
+
+.fixTableHead-2::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+.fixTableHead-2::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+.fixTableHead-2::-webkit-scrollbar-thumb {
+    background: #afafaf;
+    border-radius: 10px;
+}
+
+.fixTableHead-2::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.qi-modalPdf {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(109, 109, 109, 0.281);
+    z-index: 10;
+    opacity: 0;
+    animation: qi-slideIn .4s ease forwards;
+    -webkit-animation: qi-slideIn .4s ease forwards;
+}
+
+.qi-preview-pdf {
+    width: 50vw;
+    height: 100vh;
+    background: white;
+    position: absolute;
+    right: -50vw;
+    z-index: 1111;
+    animation: qi-slideInPdf .4s ease forwards;
+    -webkit-animation: qi-slideInPdf .4s ease forwards;
+}
+
+@keyframes qi-slideInPdf {
+    0% {
+        right: -50vw;
+    }
+
+    100% {
+        right: 0vw;
+    }
+}
+
+@keyframes qi-slideIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.qi-preview-pdf-content {
+    height: 93%;
+}
+
+.qi-preview-pdf-control {
+    height: 7%;
+    background: #c3d8ff9f;
+    border-top: 1px solid #76a4fa9f;
+}

@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Project</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style/global.css" />
+    <link rel="stylesheet" href="style/leftMenubar.css" />
+    <link rel="stylesheet" href="style/rightContent.css">
+    <link rel="stylesheet" href="style/mixedFileApprovalCss/index.css">
+</head>
+
+<body>
+    <div class="header f-between">
+        <div class="f-center">
+            <div class="logo">
+                <img src="image/image 3.svg" alt="Logo" />
+            </div>
+            <p class="header-text">Tiểu học Đức Giang - Xuân Đỉnh</p>
+        </div>
+        <div class="right f-center">
+            <div class="f-center">
+                <img src="image/icon-help.svg" alt="" />
+                <img style="margin: 0px 10px" src="image/icon-fullscreen.svg" alt="" />
+                <img src="image/Notification.svg" alt="" />
+            </div>
+            <div class="f-center logo">
+                <p class="nameLogo">Tuấn Anh</p>
+                <img src="image//avatarHeader.svg" alt="" />
+            </div>
+        </div>
+    </div>
+    <div class="navMenu flex ai-center">
+        <img class="menuIcon" src="image/3gach.svg" alt="" />
+    </div>
+    <div class="content">
+        <div id="menubar" class="show">
+            <div class="topMenubar">
+                <ul class="tabMenubar flex ai-center"></ul>
+                <div class="underlineMain"></div>
+                <div class="underlineTaba"></div>
+                <div class="qi-boxContainer">
+                    <div class="searchMenubar f-between" style="padding: 20px 0px 5px 0px; padding-left: 8px;">
+                        <div style="display: flex; width: 100% !important;">
+                            <div id="tree-container" style="width: 100%;">
+                                <ul class="tree" style="padding: 0px; ">
+                                    <li class="liMb16 relative">
+                                        <span class="folder qi-activeMenuBar j-between">
+                                            <div class="flex gap-1">
+                                                <img src="image/CaretDown.svg" alt="" class="rotate-360" /><img
+                                                    src="image/FolderOpen.svg" alt="" />
+                                                <span class="j-between">
+                                                    <div class="truncate">
+                                                        Cán bộ quản lý giáo viên, HS
+                                                    </div>
+                                                </span>
+                                            </div>
+                                            <img src="image/flowbite_search-outline.svg" alt="" class="searchIcon" />
+                                        </span>
+                                        <ul style="margin-top: 8px">
+                                            <li class="liMb16 relative">
+                                                <span class="folder  gap-1">
+                                                    <div class="qi-boxImage">
+                                                        <img src="image/ListChecks.svg" alt="" />
+                                                    </div>
+                                                    <span class="span-number absolute">18</span>
+                                                    <span class="j-between">
+                                                        <div class="truncate">
+                                                            Tất cả
+                                                        </div>
+                                                    </span>
+                                                </span>
+                                            </li>
+                                            <li class="liMb16 relative">
+                                                <span class="folder qi-activeMenuBar gap-1">
+                                                    <div class="qi-boxImage">
+                                                        <img src="image/bitcoin-icons_sign-outline.svg" alt="" />
+                                                    </div>
+                                                    <span class="span-number absolute">18</span>
+                                                    <span class="j-between">
+                                                        <div class="truncate">
+                                                            Chờ ký
+                                                        </div>
+                                                    </span>
+                                                </span>
+
+                                            </li>
+                                            <li class="liMb16 relative">
+                                                <span class="folder gap-1">
+                                                    <div class="qi-boxImage">
+                                                        <img src="image/penBlackOutline.svg" alt="" />
+                                                    </div>
+                                                    <span class="span-number absolute">18</span>
+                                                    <span class="j-between">
+                                                        <div class="truncate">
+                                                            Đã ký
+                                                        </div>
+                                                    </span>
+                                                </span>
+                                            </li>
+                                            <li class="liMb16 relative">
+                                                <span class="folder gap-1">
+                                                    <div class="qi-boxImage">
+                                                        <img src="image/Stack.svg" alt="" />
+                                                    </div>
+                                                    <span class="span-number absolute">18</span>
+                                                    <span class="j-between">
+                                                        <div class="truncate">
+                                                            Chờ đóng dấu
+                                                        </div>
+                                                    </span>
+                                                </span>
+                                            </li>
+                                            <li class="liMb16 relative">
+                                                <span class="folder gap-1">
+                                                    <div class="qi-boxImage">
+                                                        <img src="image/fileOutline.svg" alt="" />
+                                                    </div>
+                                                    <span class="span-number absolute">18</span>
+                                                    <span class="j-between">
+                                                        <div class="truncate">
+                                                            Ban hành
+                                                        </div>
+                                                    </span>
+                                                </span>
+                                            </li>
+                                            <li class="liMb16 relative">
+                                                <span class="folder gap-1">
+                                                    <div class="qi-boxImage">
+                                                        <img src="image/fileNope.svg" alt="" />
+                                                    </div>
+                                                    <span class="span-number absolute">18</span>
+                                                    <span class="j-between">
+                                                        <div class="truncate">
+                                                            Từ chối
+                                                        </div>
+                                                    </span>
+                                                </span>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="underline"></div>
+                    <div class="taba">
+                        <div class="tab-content">
+                            <div id="taba1" class="tab-pane fade in active">
+                                <div id="tree-container">
+                                    <ul class="tree">
+                                        <li class="liMb16 relative">
+                                            <span class="folder gap-1">
+                                                <img src="image/CaretDown.svg" alt="" class="rotate-360" /><img
+                                                    src="image/FolderOpen.svg" alt="" />
+                                                <span class="span-number absolute">15</span>
+                                                <span class="j-between">
+                                                    <div class="truncate">
+                                                        An toàn an ninh
+                                                    </div>
+                                                </span>
+                                            </span>
+                                        </li>
+                                        <li class="liMb16 relative">
+                                            <span class="folder gap-1">
+                                                <img src="image/CaretDown.svg" alt="" class="rotate-360" /><img
+                                                    src="image/FolderOpen.svg" alt="" />
+                                                <span class="span-number absolute">71</span>
+                                                <span class="j-between">
+                                                    <div class="truncate">
+                                                        Hành chính nhân sự
+                                                    </div>
+                                                </span>
+                                            </span>
+                                        </li>
+                                        <li class="liMb16 relative">
+                                            <span class="folder qi-activeMenuBar gap-1">
+                                                <img src="image/CaretDown.svg" alt="" class="rotate-360" /><img
+                                                    src="image/FolderOpen.svg" alt="" />
+                                                <span class="span-number absolute">18</span>
+                                                <span class="j-between">
+                                                    <div class="truncate">
+                                                        Cán bộ quản lý giáo viên, HS
+                                                    </div>
+                                                </span>
+                                            </span>
+                                            <ul style="margin-top: 8px">
+                                                <li class="liMb16 relative">
+                                                    <span class="folder gap-1">
+                                                        <img src="image/CaretDown.svg" alt="" class="rotate-360" /><img
+                                                            src="image/FolderOpen.svg" alt="" />
+                                                        <span class="span-number absolute">18</span>
+                                                        <span class="j-between">
+                                                            <div class="truncate">
+                                                                Giáo viên
+                                                            </div>
+                                                        </span>
+                                                    </span>
+                                                    <ul class="mp-truncate">
+                                                        <li class="">
+                                                            <span class="file google-doc">
+                                                                <div class="truncate ">
+                                                                    <img src="image/Dropdown Icon.svg" alt="" />
+                                                                    Hồ Sơ Giáo Viên
+                                                                </div>
+                                                            </span>
+                                                        </li>
+                                                        <li class="">
+                                                            <span class="file google-sheet">
+                                                                <div class="truncate">
+                                                                    <img src="image/Dropdown Icon (1).svg" alt="" />
+                                                                    Hồ Sơ Đánh Giá Chuẩn Nghề
+                                                                </div>
+                                                            </span>
+                                                        </li>
+                                                        <li class="">
+                                                            <span class="file google-slide">
+                                                                <div class="truncate">
+                                                                    <img src="image/Dropdown Icon (2).svg" alt="" />
+                                                                    Hồ Sơ Bồi Dưỡng
+                                                                </div>
+                                                            </span>
+                                                        </li>
+                                                        <li class="">
+                                                            <span class="file google-doc purple">
+                                                                <div class="truncate">
+                                                                    <img src="image/Dropdown Icon (3).svg" alt="" />
+                                                                    Hồ Sơ Đánh Giá Nhà
+                                                                    Giáo
+                                                                </div>
+                                                            </span>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="liMb16 relative">
+                                                    <span class="folder gap-1">
+                                                        <img src="image/CaretDown.svg" alt="" class="rotate-360" /><img
+                                                            src="image/FolderOpen.svg" alt="" />
+                                                        <span class="span-number absolute">18</span>
+                                                        <span class="j-between">
+                                                            <div class="truncate">
+                                                                Học sinh
+                                                            </div>
+                                                        </span>
+                                                    </span>
+                                                    <ul class="mp-truncate">
+                                                        <li class="">
+                                                            <span class="file google-doc">
+                                                                <div class="truncate ">
+                                                                    <img src="image/Dropdown Icon.svg" alt="" />
+                                                                    Hồ Sơ Giáo Viên
+                                                                </div>
+                                                            </span>
+                                                        </li>
+                                                        <li class="">
+                                                            <span class="file google-sheet">
+                                                                <div class="truncate">
+                                                                    <img src="image/Dropdown Icon (1).svg" alt="" />
+                                                                    Hồ Sơ Đánh Giá Chuẩn Nghề
+                                                                </div>
+                                                            </span>
+                                                        </li>
+                                                        <li class="">
+                                                            <span class="file google-slide">
+                                                                <div class="truncate">
+                                                                    <img src="image/Dropdown Icon (2).svg" alt="" />
+                                                                    Hồ Sơ Bồi Dưỡng
+                                                                </div>
+                                                            </span>
+                                                        </li>
+                                                        <li class="">
+                                                            <span class="file google-doc purple">
+                                                                <div class="truncate">
+                                                                    <img src="image/Dropdown Icon (3).svg" alt="" />
+                                                                    Hồ Sơ Đánh Giá Nhà
+                                                                    Giáo
+                                                                </div>
+                                                            </span>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="liMb16 relative">
+                                                    <span class="folder qi-activeMenuBar gap-1">
+                                                        <img src="image/CaretDown.svg" alt="" class="rotate-360" /><img
+                                                            src="image/FolderOpen.svg" alt="" />
+                                                        <span class="span-number absolute">18</span>
+                                                        <span class="j-between">
+                                                            <div class="truncate">
+                                                                Trợ giảng
+                                                            </div>
+                                                        </span>
+                                                    </span>
+                                                    <ul class="mp-truncate">
+                                                        <li class="">
+                                                            <span class="file google-doc">
+                                                                <div class="truncate ">
+                                                                    <img src="image/Dropdown Icon.svg" alt="" />
+                                                                    Hồ Sơ Giáo Viên
+                                                                </div>
+                                                            </span>
+                                                        </li>
+                                                        <li class="">
+                                                            <span class="file google-sheet">
+                                                                <div class="truncate">
+                                                                    <img src="image/Dropdown Icon (1).svg" alt="" />
+                                                                    Hồ Sơ Đánh Giá Chuẩn Nghề
+                                                                </div>
+                                                            </span>
+                                                        </li>
+                                                        <li class="">
+                                                            <span class="file google-slide">
+                                                                <div class="truncate">
+                                                                    <img src="image/Dropdown Icon (2).svg" alt="" />
+                                                                    Hồ Sơ Bồi Dưỡng
+                                                                </div>
+                                                            </span>
+                                                        </li>
+                                                        <li class="">
+                                                            <span class="file google-doc purple">
+                                                                <div class="truncate">
+                                                                    <img src="image/Dropdown Icon (3).svg" alt="" />
+                                                                    Hồ Sơ Đánh Giá Nhà
+                                                                    Giáo
+                                                                </div>
+                                                            </span>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div id="taba2" class="tab-pane fade">2</div>
+                            <div id="taba3" class="tab-pane fade">3</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottomMenubar f-center">
+                <div class="storage-bar">
+                    <div class="storage-info f-between">
+                        <span class="usage">100/500 Bản</span>
+                        <span class="plan">Free Plan</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 35%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scrollBar" id="scball"></div>
+        <div class="tab truncate flex j-start clearWidth relative" id="menubarRight">
+            <div class="content-right">
+                <div class="head-content-right flex j-between" style="padding-bottom: 0px;">
+                    <div class="qi-content-left f-center">
+                        <p>Chờ ký</p>
+                        <img src="image/share.svg" alt="">
+                    </div>
+                    <div class="qi-content-right f-center gap-2">
+                        <div class="btn-default qi-btn-default">
+                            <img src="image/material-symbols_rate-review-outline-sharp.svg" alt="">
+                            Nhận xét
+                        </div>
+                        <div class="btn-default qi-btn-default">
+                            <img src="image/line-md_file-download.svg" alt="">
+                            Tải file
+                        </div>
+                        <div class="btn-default qi-btn-default">
+                            <img src="image/nopeMini.svg" alt="">
+                            Từ chối
+                        </div>
+                        <div class="btn-default qi-btn-default">
+                            <img src="image/penMini.svg" alt="">
+                            Ký duyệt
+                        </div>
+                    </div>
+                </div>
+                <div class="head-content-right flex j-between f-wrap" style="gap: 16px; padding-top: 0px;">
+                    <div class="left-content-filter flex ai-center">
+                        <div class="flex ai-center">
+                            <p class="pHead">Trạng thái</p>
+                            <select id="frequencySelect" class="form-control selectHead textOption">
+                                <option value="">--- Tất cả ---</option>
+                                <option value="1">Đăng kí</option>
+                                <option value="2">Chờ duyệt</option>
+                                <option value="3">Đã duyệt</option>
+                                <option value="4">Bị từ chối</option>
+                            </select>
+                        </div>
+                        <div class="flex ai-center" style="margin-right: 8px;">
+                            <div class="qi-box-search f-center j-end" style="padding: 8px;">
+                                <input id="2" type="text" class="qi-input-search" placeholder="Tên sỗ">
+                                <img src="image/searchBlack.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="flex ai-center j-center filterDown"> <img src="image/filterDown.svg" alt=""
+                                style="margin-right: 8px;">
+                            <p>Hiện bộ lọc</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div style="padding: 0 20px;">
+                    <div class="fixTableHead-2">
+                        <table class="table table-bordered table-striped table-hover">
+                            <thead class="theadMain">
+                                <tr class="text-center">
+                                    <th class="text-center"
+                                        style="border-bottom: none !important; background: #0071A6;">
+                                        <input id="3" type="checkbox" class="inputCheckbox">
+                                    </th>
+                                    <th class="thLabelHeader">Xem</th>
+                                    <th class="thLabelHeader th-left">Tên hồ sơ</th>
+                                    <th class="thLabelHeader">Kiểu ký</th>
+                                    <th class="thLabelHeader">Ngày nộp</th>
+                                    <th class="thLabelHeader">Ngày trình ký</th>
+                                    <th class="thLabelHeader">Người nộp</th>
+                                    <th class="thLabelHeader">Trạng thái</th>
+                                </tr>
+                            </thead>
+                            <tbody id="tbodyMain">
+                                <!-- Row 1 -->
+                                <tr>
+                                    <td style="height: 1px;">
+                                        <div class="f-center tdHeightCheckBox">
+                                            <input id="4" type="checkbox" class="inputCheckbox">
+                                        </div>
+                                    </td>
+                                    <td style="height: 1px;">
+                                        <div class="f-center qi-showInfo">
+                                            <img src="image/showInfo.svg" alt="">
+                                        </div>
+                                    </td>
+                                    <td style="height: 1px;">
+                                        <div class="f-center j-start">
+                                            <img src="image/filePdfIcon.svg" style="margin-right: 8px;" alt="">
+                                            <div class=" signature-period-text-table flex f-col ai-start">
+                                                <p>Biên bản kiểm tra hồ sơ nhà giáo.pdf 2</p>
+                                                <p>Năm 2023 - 2024</p>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td style="height: 1px;">
+                                        <div class="td-left j-center">
+                                            <p class="signature-text-table ">Ký thường</p>
+                                        </div>
+                                    </td>
+                                    <td style="height: 1px;">
+                                        <div class="f-center">
+                                            10/10/2024
+                                        </div>
+                                    </td>
+                                    <td style="height: 1px;">
+                                        <div class="f-center">
+                                            Ngữ văn
+                                        </div>
+                                    </td>
+                                    <td style="height: 1px;">
+                                        <div class="f-center">
+                                            Nguyễn Văn Hùng
+                                        </div>
+                                    </td>
+                                    <td style="height: 1px;">
+                                        <div class="f-center">
+                                            <span class="statusCart-register">Đăng ký</span>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <!-- end Row 1 -->
+
+                                <!-- Row 2 -->
+                                <tr>
+                                    <td style="height: 1px;">
+                                        <div class="f-center tdHeightCheckBox">
+                                            <input id="5" type="checkbox" class="inputCheckbox">
+                                        </div>
+                                    </td>
+                                    <td style="height: 1px;">
+                                        <div class="f-center qi-showInfo">
+                                            <img src="image/showInfo.svg" alt="">
+                                        </div>
+                                    </td>
+                                    <td style="height: 1px;">
+                                        <div class="f-center j-start">
+                                            <img src="image/filePngIcon.svg" style="margin-right: 8px;" alt="">
+                                            <div class=" signature-period-text-table flex f-col ai-start">
+                                                <p>Biên bản kiểm tra hồ sơ nhà giáo.png 3</p>
+                                                <p>Năm 2023 - 2024</p>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td style="height: 1px;">
+                                        <div class="td-left j-center">
+                                            <p class="signature-text-table ">Ký số</p>
+                                        </div>
+                                    </td>
+                                    <td style="height: 1px;">
+                                        <div class="f-center">
+                                            10/10/2024
+                                        </div>
+                                    </td>
+                                    <td style="height: 1px;">
+                                        <div class="f-center">
+                                            Sinh học
+                                        </div>
+                                    </td>
+                                    <td style="height: 1px;">
+                                        <div class="f-center">
+                                            Phạm Thị Hoa
+                                        </div>
+                                    </td>
+                                    <td style="height: 1px;">
+                                        <div class="f-center">
+                                            <span class="statusCart-wait">Chờ duyệt</span>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <!-- end Row 2 -->
+
+                                <!-- Row 3 -->
+                                <tr>
+                                    <td style="height: 1px;">
+                                        <div class="f-center tdHeightCheckBox">
+                                            <input id="6" type="checkbox" class="inputCheckbox">
+                                        </div>
+                                    </td>
+                                    <td style="height: 1px;">
+                                        <div class="f-center qi-showInfo">
+                                            <img src="image/showInfo.svg" alt="">
+                                        </div>
+                                    </td>
+                                    <td style="height: 1px;">
+                                        <div class="f-center j-start">
+                                            <img src="image/fileTxtIcon.svg" style="margin-right: 8px;" alt="">
+                                            <div class=" signature-period-text-table flex f-col ai-start">
+                                                <p>Biên bản kiểm tra hồ sơ nhà giáo.txt 4</p>
+                                                <p>Năm 2023 - 2024</p>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td style="height: 1px;">
+                                        <div class="td-left j-center">
+                                            <p class="signature-text-table ">Ký thường</p>
+                                        </div>
+                                    </td>
+                                    <td style="height: 1px;">
+                                        <div class="f-center">
+                                            10/10/2024
+                                        </div>
+                                    </td>
+                                    <td style="height: 1px;">
+                                        <div class="f-center">
+                                            Lịch sử
+                                        </div>
+                                    </td>
+                                    <td style="height: 1px;">
+                                        <div class="f-center">
+                                            Trần Văn Tâm
+                                        </div>
+                                    </td>
+                                    <td style="height: 1px;">
+                                        <div class="f-center">
+                                            <span class="statusCart-success">Đã duyệt</span>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <!-- end Row 3 -->
+
+                                <!-- Row 4 -->
+                                <tr>
+                                    <td style="height: 1px;">
+                                        <div class="f-center tdHeightCheckBox">
+                                            <input id="7" type="checkbox" class="inputCheckbox">
+                                        </div>
+                                    </td>
+                                    <td style="height: 1px;">
+                                        <div class="f-center qi-showInfo">
+                                            <img src="image/showInfo.svg" alt="">
+                                        </div>
+                                    </td>
+                                    <td style="height: 1px;">
+                                        <div class="f-center j-start">
+                                            <img src="image/fileXlsIcon.svg" style="margin-right: 8px;" alt="">
+                                            <div class=" signature-period-text-table flex f-col ai-start">
+                                                <p>Biên bản kiểm tra hồ sơ nhà giáo.xls 5</p>
+                                                <p>Năm 2023 - 2024</p>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td style="height: 1px;">
+                                        <div class="td-left j-center">
+                                            <p class="signature-text-table ">Ký số</p>
+                                        </div>
+                                    </td>
+                                    <td style="height: 1px;">
+                                        <div class="f-center">
+                                            10/10/2024
+                                        </div>
+                                    </td>
+                                    <td style="height: 1px;">
+                                        <div class="f-center">
+                                            12/10/2024
+                                        </div>
+                                    </td>
+                                    <td style="height: 1px;">
+                                        <div class="f-center">
+                                            Lê Thanh Hương
+                                        </div>
+                                    </td>
+                                    <td style="height: 1px;">
+                                        <div class="f-center">
+                                            <span class="statusCart-reject">Bị từ chối</span>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <!-- end Row 4 -->
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="qi-modalPdf relative hidden">
+                        <div class="qi-preview-pdf">
+                            <div class="qi-preview-pdf-content">
+                                <!-- Đặt nội dung preview ở đây -->
+                            </div>
+                            <div class="qi-preview-pdf-control">
+                                <div class="qi-content-right f-center gap-2">
+                                    <div class="btn-default qi-btn-default">
+                                        <img src="image/material-symbols_rate-review-outline-sharp.svg" alt="">
+                                        Nhận xét
+                                    </div>
+                                    <div class="btn-default qi-btn-default">
+                                        <img src="image/line-md_file-download.svg" alt="">
+                                        Tải file
+                                    </div>
+                                    <div class="btn-default qi-btn-default">
+                                        <img src="image/nopeMini.svg" alt="">
+                                        Từ chối
+                                    </div>
+                                    <div class="btn-default qi-btn-default">
+                                        <img src="image/penMini.svg" alt="">
+                                        Ký duyệt
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+    <!-- Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/scrollBar.js"></script>
+    <script src="js/leftBarTree.js"></script>
+    <script src="js/mixedFileApprovalJS/index.js"></script>
+</body>
+
+</html>
